@@ -1,0 +1,70 @@
+#topText, #dragItem, #dropArea {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+#topText div {
+    margin: 0px 10px 20px 50px;
+    height:44px;
+    width: 100px;
+    padding:5px;
+    text-align:center;
+    font-size:14px;
+    line-height:44px;
+    float: left;
+}
+#dropArea div {
+    margin: 0px 10px 20px 50px;
+    height:44px;
+    width: 100px;
+    background-color:#eee;
+    border-radius: 5px;
+    padding:5px;
+    text-align:center;
+    font-size:14px;
+    line-height:44px;
+    float: left;
+}
+#dragItem div {
+    margin: 0px 10px 20px 50px;
+    height:44px;
+    width: 100px;
+    background-color:#ccc;
+    border-radius: 5px;
+    padding:5px;
+    text-align:center;
+    font-size:14px;
+    line-height:44px;
+    float: left;
+    cursor: pointer;
+}
+#submit {
+    position: relative;
+    margin: 0px 10px 20px 50px;
+    height:20px;
+    width: 100px;
+    background-color:#005252;
+    border-radius: 5px;
+    padding:5px;
+    text-align:center;
+    font-size:14px;
+    font-weight:bold;
+    color: #FFF;
+    line-height:20px;
+    float: left;
+    cursor: pointer;
+}
+#submit:hover {
+    background-color:#009999;
+}
+#submit[disabled] {
+    background-color:#6d6d6d;
+}
+@media screen and (max-width: 768px) {
+	#topText, #dragItem, #dropArea {
+        width: 30%;
+    }
+    #topText div, #dragItem div, #dropArea div {
+        float: none;
+    }    
+}

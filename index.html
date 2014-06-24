@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sample Shell</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no" />
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" media="screen" href="css/course.css" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans|Baumans' rel='stylesheet' type='text/css' />
+
+    <!--<script src="js/jquery-1.11.1.js"></script>-->
+    <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>-->
+    <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+    <script src="js/xmlloader.js"></script>
+    <script src="js/shell.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(e) {
+        init();
+    });
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="logo"></div>
+        <div>
+            <p class="courseTitle">Test Course</p>
+        </div>
+        <div id="topControls">
+            <div class="btnDivider"></div>
+            <div class="menuBtn"></div>
+            <div class="btnDivider"></div>
+            <div class="closeBtn"></div>
+            <div class="btnDivider"></div>
+        </div>
+    </header>
+    <section class="contentArea" id="contentArea">
+        <div id="contentLoader">contentLoader</div>
+    </section>
+    <footer>
+        <nav>
+            <div class="btnDivider"></div>
+            <div class="backBtn" id="backBtn" onClick="doBack()"></div>
+            <div class="btnDivider"></div>
+            <div class="playBtn" id="playPauseBtn" onClick="doPlayPause()"></div>
+            <div class="btnDivider"></div>
+            <div class="nextBtn" id="nextBtn" onClick="doNext()"></div>
+            <div class="btnDivider"></div>
+        </nav>
+    </footer>
+</body>
+
+</html>

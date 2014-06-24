@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page 2</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no" />
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" media="screen" href="css/course.css" />
+    <link rel="stylesheet" media="screen" href="css/DnD.css" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans|Baumans' rel='stylesheet' type='text/css' />
+
+    <!--<script src="js/jquery-1.11.1.js"></script>-->
+    <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>-->
+    <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+    <script src="js/DnD.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(e) {
+        var fileref = document.createElement('script')
+        fileref.setAttribute("src", "js/DnD.js")
+        if (typeof fileref != "undefined") {
+            document.getElementsByTagName("head")[0].appendChild(fileref);
+            initDnD();
+        }
+        // initDnD();
+    });
+    </script>
+</head>
+
+<body>
+    <section>
+        <div id="text_1">
+            <h2>Question text to come here.</h2>
+        </div>
+
+        <div id="text_2">
+            <p>Drag the options to correct positions.</p>
+        </div>
+    </section>
+    <section id="DnDHolder">
+        <div id="topText">
+            <div class="topRowText">Text 1</div>
+            <div class="topRowText">Text 2</div>
+            <div class="topRowText">Text 3</div>
+        </div>
+        <div id="dropArea">
+            <div class="dropArea" correct="2">Answer 2</div>
+            <div class="dropArea" correct="3">Answer 3</div>
+            <div class="dropArea" correct="1">Answer 1</div>
+        </div>
+        <div id="dragItem">
+        	<div class="dragItem">Drag Item 1</div>
+        	<div class="dragItem">Drag Item 2</div>
+        	<div class="dragItem">Drag Item 3</div>
+        </div>
+        <div id="submit">Submit</div>
+        <div id="feedback"></div>
+    </section>
+</body>
+
+</html>

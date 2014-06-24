@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course>
+	<module id="1">
+		<pages id="1" src="pages/page_01.html" hasAudio="false"><![CDATA[]]></pages>
+		<pages id="2" src="pages/page_02.html" hasAudio="true"><![CDATA[]]></pages>
+		<!-- <pages id="3" src="pages/page_01.html" soundBtn="off" isVideo='true'><![CDATA[]]></pages>
+		<pages id="4" src="pages/page_02.html" soundBtn="on" isVideo='true' sound="sound/page_2"><![CDATA[]]></pages>
+		<pages id="5" src="pages/page_03.html" soundBtn="on" isVideo='true' sound="sound/page_3"><![CDATA[]]></pages>
+		<pages id="6" src="pages/page_09.html" soundBtn="on" isVideo='true' sound="sound/page_9"><![CDATA[]]></pages>
+		<pages id="7" src="pages/page_13.html" soundBtn="off" isVideo='true'><![CDATA[]]></pages>		
+		<pages id="8" src="pages/page_25.html" soundBtn="off" isVideo='true'><![CDATA[]]></pages>
+		<pages id="9" src="pages/page_26.html" soundBtn="off" isVideo='true'><![CDATA[]]></pages>
+		<pages id="10" src="pages/page_30.html" soundBtn="on" isVideo='true' sound="sound/page_30"><![CDATA[]]></pages>
+		<pages id="11" src="pages/page_36.html" soundBtn="off" isVideo='true'><![CDATA[]]></pages>
+		<pages id="12" src="pages/page_38.html" soundBtn="on" isVideo='true' sound="sound/page_38"><![CDATA[]]></pages>
+		<pages id="13" src="pages/page_39.html" soundBtn="on" isVideo='true' sound="sound/page_39"><![CDATA[]]></pages>
+		<pages id="14" src="pages/page_57.html" soundBtn="off" isVideo='true'><![CDATA[]]></pages> -->
+	</module>
+</course>
